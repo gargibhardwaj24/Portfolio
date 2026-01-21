@@ -11,7 +11,7 @@ export default function About() {
                 <p className="text-white text-2xl">Full Stack Developer</p>
                 <p className="text-white text-2xl">Gargi Bhardwaj</p>
             </div>
-            <div className="main flex justify-between w-full ml-40 gap-8">
+            <div className="main flex justify-between w-full ml-20 gap-8">
                 <div className="heading w-1/2">
                     <h1 style={{ fontFamily: 'Alumni Sans', fontSize: '12rem' }} className="  text-[8rem] sm:text-[8rem] 
         font-extrabold text-pink-300 ">WHO AM I?</h1>

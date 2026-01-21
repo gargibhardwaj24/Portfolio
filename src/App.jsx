@@ -4,6 +4,7 @@ import "./index.css";
 import Contact from "./Contact";
 import Intro from "./components/Intro";
 import About from "./components/About";
+import Strengths from "./components/Strenghts";
 
 export default function App() {
   const contactRef = useRef(null);
@@ -34,7 +35,9 @@ export default function App() {
         <div className="slide">
           <About />
         </div>
-        <div className="slide">Strengths</div>
+        <div className="slide">
+          <Strengths />
+        </div>
         <div className="slide">Projects</div>
 
         {/* BLACK SECTION */}
