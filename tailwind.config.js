@@ -9,6 +9,8 @@ export default {
         poppins: ['Poppins', 'sans-serif'],
         explora: ['Explora', 'cursive'],
         alumni: ['Alumni Sans', 'sans-serif'],
+        fasthand: ["Fasthand", "cursive"],
+         tangerine: ["Tangerine", "cursive"],
       },
     },
   },

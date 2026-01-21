@@ -6,11 +6,11 @@ import hero2Img from "../assets/hero2.png";
 export default function About() {
     return (
         <div className="about p-18 m-4">
-            <div style={{ fontFamily: 'Poppins', fontWeight: 'lighter' }} className="nav flex justify-around items-center m-auto mb-8">
+            {/* <div style={{ fontFamily: 'Poppins', fontWeight: 'lighter' }} className="nav flex justify-around items-center m-auto mb-8">
                 <img className="w-1/24 h-fit" src={hamburger} alt="" />
                 <p className="text-white text-2xl">Full Stack Developer</p>
                 <p className="text-white text-2xl">Gargi Bhardwaj</p>
-            </div>
+            </div> */}
             <div className="main flex justify-between w-full ml-20 gap-8">
                 <div className="heading w-1/2">
                     <h1 style={{ fontFamily: 'Alumni Sans', fontSize: '12rem' }} className="  text-[8rem] sm:text-[8rem] 

@@ -1,10 +1,13 @@
 import { useEffect, useRef, useState } from "react";
 import Background from "./Background";
 import "./index.css";
-import Contact from "./Contact";
+import Contact from "./components/Contact";
 import Intro from "./components/Intro";
 import About from "./components/About";
 import Strengths from "./components/Strenghts";
+import Projecti from "./components/Projecti";
+import Projectii from "./components/Projectii";
+import Navbar from "./components/Navbar";
 
 export default function App() {
   const contactRef = useRef(null);
@@ -26,9 +29,9 @@ export default function App() {
   return (
     <>
       <Background hide={hideBg} />
-
+      <Navbar />
       <div className="content">
-        <div className="slide">
+        <div className="slide intro-slide">
           <Intro />
         </div>
 
@@ -38,7 +41,12 @@ export default function App() {
         <div className="slide">
           <Strengths />
         </div>
-        <div className="slide">Projects</div>
+        <div className="slide">
+          <Projecti />
+        </div>
+        <div className="slide">
+          <Projectii />
+        </div>
 
         {/* BLACK SECTION */}
         <div ref={contactRef}>
